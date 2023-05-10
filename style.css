@@ -1,0 +1,113 @@
+*{
+
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 600px;
+    text-align: center;
+    margin: 100px auto;
+    padding: 12px;
+}
+
+
+.h-title{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.btn{
+    width: 50%;
+    margin-top: 2px;
+    padding: 12px 30px;
+    font-size: 14px;
+    background-color: white;
+    border: 0.9px solid brown;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    background-color: brown;
+    color:white
+}
+
+
+img{
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 12px;
+ 
+}
+
+
+.magic{
+    animation-name: magic;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes magic {
+    20%{
+        font-size: 20px;
+        color:blue
+    }
+    
+    40%{
+        font-size: 25px;
+        color:rgb(255, 0, 132)
+    }
+    60%{
+        font-size: 30px;
+        color:rgb(255, 128, 0)
+    }
+    80%{
+        font-size: 35px;
+        color:rgb(0, 255, 106)
+    }
+    100%{
+        font-size: 40px;
+        color:gray;
+    }
+}
+
+
+@media (max-width:600px) {
+    .container{
+        width: 500px;
+        text-align: center;
+        margin: 70px auto;
+        padding: 12px;
+    }
+    
+    
+    .h-title{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    
+    .btn{
+        width: 50%;
+        margin-top: 2px;
+        padding: 12px 30px;
+        font-size: 14px;
+        background-color: white;
+        border: 0.9px solid brown;
+        border-radius: 8px;
+    }
+    
+    .btn:hover{
+        background-color: brown;
+        color:white
+    }
+    
+    
+    img{
+        margin: 20px auto;
+        width: 250px;
+        border-radius: 12px;
+     
+    }
+}
+
