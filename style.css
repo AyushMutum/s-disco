@@ -109,5 +109,37 @@ img{
         border-radius: 12px;
      
     }
+
+
+    .magic{
+        animation-name: magic;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes magic {
+        20%{
+            font-size: 15px;
+            color:blue
+        }
+        
+        40%{
+            font-size: 20px;
+            color:rgb(255, 0, 132)
+        }
+        60%{
+            font-size: 25px;
+            color:rgb(255, 128, 0)
+        }
+        80%{
+            font-size: 30px;
+            color:rgb(0, 255, 106)
+        }
+        100%{
+            font-size: 33px;
+            color:gray;
+        }
+    }
+    
 }
 
