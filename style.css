@@ -75,20 +75,20 @@ img{
 
 @media (max-width:600px) {
     .container{
-        width: 500px;
+        width: 400px;
         text-align: center;
-        margin: 70px auto;
+        margin: 50px auto;
         padding: 12px;
     }
     
     
     .h-title{
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 5px;
     }
     
     .btn{
-        width: 50%;
+        width: 40%;
         margin-top: 2px;
         padding: 12px 30px;
         font-size: 14px;
@@ -104,7 +104,7 @@ img{
     
     
     img{
-        margin: 20px auto;
+        margin: 15px auto;
         width: 250px;
         border-radius: 12px;
      
